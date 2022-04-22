@@ -1,5 +1,5 @@
-$studentprefix = "Your 3 letter abbreviation here"
-$githubAccount = "Your github account name here"
+$studentprefix = "sby"
+$githubAccount = "stein5750"
 $resourcegroupName = "fabmedical-rg-" + $studentprefix
 $cosmosDBName = "fabmedical-cdb-" + $studentprefix
 
