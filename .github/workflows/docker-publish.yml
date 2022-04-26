@@ -298,7 +298,7 @@ jobs:
         ./deploy-webapp.ps1 -studentprefix sby  # <-- This needs to
                                                 # match the student
                                                 # prefix we use in
-                                                # previous steps.                       
+                                                # previous steps                       
 
 
 
