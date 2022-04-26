@@ -1,4 +1,4 @@
-$studentsuffix = "Your 3 letter abbreviation here"
+$studentsuffix = "sby"
 $resourcegroupName = "fabmedical-rg-" + $studentsuffix
 $location1 = "westeurope"
 $appInsights = "fabmedicalai-" + $studentsuffix
