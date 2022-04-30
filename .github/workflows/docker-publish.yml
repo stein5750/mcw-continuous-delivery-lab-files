@@ -5,22 +5,15 @@ name: Docker
 # separate terms of service, privacy policy, and support
 # documentation.
 
-
 on:
+  schedule:
+    - cron: '40 18 * * *'
   push:
-    branches-ignore:    # <-- Add this list property
-      - '**'            # <-- with '**' to disable all branches
-
-# Disabled while I use azure devops instead.
-#on:
-#  schedule:
-#    - cron: '40 18 * * *'
-#  push:
-#    branches: [ main ]
-#    # Publish semver tags as releases.
-#    tags: [ 'v*.*.*' ]
-#  pull_request:
-#    branches: [ main ]
+    branches: [ main ]
+    # Publish semver tags as releases.
+    tags: [ 'v*.*.*' ]
+  pull_request:
+    branches: [ main ]
 
 env:
   # Use docker.io for Docker Hub if empty.
