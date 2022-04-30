@@ -1,6 +1,6 @@
 $studentsuffix = "sby"
 $resourcegroupName = "fabmedical-rg-" + $studentsuffix
-$location1 = "westeurope"
+$location1 = "norwayeast"
 $appInsights = "fabmedicalai-" + $studentsuffix
 
 az extension add --name application-insights
